@@ -7,18 +7,19 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25px;
+    text-align: center;
 }
 
-#header-el {
+.header-element {
     background-color: purple;
 }
 
-h1 {
+.site-name {
     font-size: 45px;
     font-weight: bold;
 }
 
-h2 {
+.section-name {
     font-size: 38px;
     font-weight: 600;
 }
@@ -33,6 +34,11 @@ h2 {
 a {
     color: orange;
     text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background: orange;
 }
 
 img {
