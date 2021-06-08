@@ -9,15 +9,9 @@
     font-size: 25px;
 }
 
-
-header {
-    color: black;
-    background: purple;
+#header-el {
+    background-color: purple;
 }
-
-/*nav {
-    color: orange;
-}*/
 
 h1 {
     font-size: 45px;
@@ -28,7 +22,8 @@ h2 {
     font-size: 38px;
     font-weight: 600;
 }
-h3 {
+
+.product-name {
     color: black;
     background-color: lightseagreen;
     font-size: 30px;
@@ -40,3 +35,7 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}

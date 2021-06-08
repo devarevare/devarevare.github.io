@@ -8,25 +8,32 @@
     <title>Products - devarevare's website</title>
 </head>
 <body>
-    <header>
-        <h1>devarevare's website</h1>
-        <nav>
-            <a href="index.html">Home</a> / <a href="products.html">Products</a>
-        </nav>
-        <h2>Products</h2>
-    </header>
-    <article>
-        <div>
-            <h3>DZIP GUI</h3>
-            <img src="img/scr1.png" alt="DZIP GUI">
-            <p>A GUI made with Python, PyQt5 and Qt Designer for dzip tool. Requires dzip executable! Get one at <a href="http://aluigi.org/misc/dzip.zip">http://aluigi.org/misc/dzip.zip</a></p>
-            <a href="https://github.com/devarevare/dzip_gui">Github</a>
-        </div>
-    </article>
-    <br>
-    <footer>
-        <span>2021, github - </span>
-        <span><a href="https://github.com/devarevare">devarevare</a></span>
-    </footer>
+    <div class="site-header">
+        <header id="header-el">
+            <h1>devarevare's website</h1>
+            <nav class="site-nav">
+                <a href="index.html">Home</a> / <a href="products.html">Products</a>
+            </nav>
+            <h2>Products</h2>
+        </header>
+    </div>
+
+    <div class="site-content">
+        <article>
+            <div class="product">
+                <h3 class = "product-name">DZIP GUI</h3>
+                <img src="img/scr1.png" alt="DZIP GUI">
+                <p>A GUI made with Python, PyQt5 and Qt Designer for dzip tool. Requires dzip executable! Get one at <a href="http://aluigi.org/misc/dzip.zip">http://aluigi.org/misc/dzip.zip</a></p>
+                <a href="https://github.com/devarevare/dzip_gui">Github</a>
+            </div>
+        </article>
+    </div>
+
+    <div class="site-footer">
+        <footer>
+            <span>2021, github - </span>
+            <span><a href="https://github.com/devarevare">devarevare</a></span>
+        </footer>
+    </div>
 </body>
 </html>
